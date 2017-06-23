@@ -1,0 +1,102 @@
+#new-section {
+    width: 100%;
+    height: 820px;
+    background: $main-color;
+    float: left;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    .container {
+        background: $blue-color;
+        height: 769px;
+        width: 340px;
+        display: inline-block;
+        text-align: center;
+        margin: 2% auto;
+        img.main {
+            height: 451px;
+            text-align: center;
+            width: 308px;
+            margin-top: 16px;
+        }
+        img.logo {
+            height: 82px;
+            width: 82px;
+            position: relative;
+            border-radius: 125%;
+            left: -93.5px;
+            top: -44px;
+            margin-bottom: -89px;
+            border: 3px solid $background-color;
+        }
+        .content {
+            width: 308px;
+            height: 286px;
+            background-color: $white-color;
+            text-align: center;
+            margin: 1px auto 16px auto;
+            header {
+                font-size: 24px;
+                text-align: left;
+                display: inline-block;
+                margin: 50px 0 5px 16px;
+                height: 20px;
+                font-weight: bold;
+                color: lighten($black-color, 30%);
+            }
+            .rating {
+                text-align: left;
+                margin-left: 16px;
+                font-size: 24px;
+                .filled {
+                    color: darken($yellow-color, 25%);
+                }
+            }
+            .phone {
+                text-align: left;
+                margin: 40px 0 5px 16px;
+                color: darken($blue-color, 20%);
+                opacity: .6;
+            }
+            .address-distance {
+                text-align: left;
+                margin: 10px 0 12px 16px;
+                color: lighten($black-color, 50%);
+                height: 25px;
+                i {
+                    color: $red-color;
+                    padding: 0 10px;
+                }
+                
+                .address {
+                    float: left;
+                    width: 78%;
+                }
+                .distance{
+                    float: left;
+                    width: 22%;
+                }
+            }
+            .quick-info {
+                text-align: left;
+                height: 57px;
+                padding: 18px 0 0 16px; //padding: auto 0;
+                border-top: 1px solid lighten($gray-color, 30%);
+                opacity: .5;
+                a{
+                     color: darken($blue-color, 10%);
+                     font-weight: 200;
+                     font-size: 18px;
+                }
+               
+                i {
+                    float: right;
+                    margin-right: 20px;
+                    color: lighten($blue-color, 20%);
+                    font-size: 30px;
+                    background: $white-color;
+                }
+            }
+        }
+    }
+}

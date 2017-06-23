@@ -1,0 +1,29 @@
+p {
+    color: $main-color;
+    font-size: 160%;
+    line-height: $line-height;
+    text-indent: 2%;
+    padding: 3%;
+    text-align: justify;
+}
+
+a {
+    color: $main-color;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+        color: #c3d7df;
+    }
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;   
+}
+
+ul {
+    list-style: none;
+}
